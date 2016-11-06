@@ -1,0 +1,21 @@
+{
+  "name": "datamonitor",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "_underscore"
+  ],
+  "license": "ISC",
+  "homepage": "/public/index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7"
+  }
+}
