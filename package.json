@@ -9,6 +9,9 @@
   "author": "_underscore",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "nodemailer": "^2.6.4",
+    "request": "^2.78.0"
   }
 }
