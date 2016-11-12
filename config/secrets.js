@@ -4,9 +4,9 @@ config.PORT = process.env.PORT || 8080;
 config.API_URL = "https://thawing-refuge-25082.herokuapp.com/";
 config.USERNAME = '';
 config.PASSWORD = '';
-config.GMAIL_USERNAME =  'aisforamit@gmail.com';
-config.GMAIL_PASSWORD =  'iloveitaly';
-config.MAIL_FROM = 'amit.shekhar@box8.in';
-config.MAIL_TO =  'aisforamit@gmail.com';
+config.GMAIL_USERNAME =  '';
+config.GMAIL_PASSWORD =  '';
+config.MAIL_FROM = '';
+config.MAIL_TO =  '';
 
 module.exports = config;
