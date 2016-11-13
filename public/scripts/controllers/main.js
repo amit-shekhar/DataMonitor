@@ -9,7 +9,7 @@ angular.module("DataMonitor")
       method: "GET",
       url: "/data"
     }).then(function(response){
-      $scope.docs = response.data.response.docs;
+      $scope.docs = response.data.docs;
     }); 
   }
 

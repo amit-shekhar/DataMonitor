@@ -15,13 +15,13 @@
         <thead>
           <tr>
             <th></th>
-            <th ng-repeat="doc in docs | unique:'doc.fq_bin'">{{ doc.fq_bin }}</th>
+            <th ng-repeat="doc in docs | unique:'fq_bin'">{{ doc.fq_bin }}</th>
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="outer in docs | unique:'doc.model'">
+          <tr ng-repeat="outer in docs | unique:'model'">
             <td class="model_title">{{ outer.model }}</td>
-            <td ng-repeat="inner in docs | unique:'doc.fq_bin'" ng-click="select_docs(outer.model,inner.fq_bin)" class="{{ get_count(outer.model,inner.fq_bin) > 3 ? 'success' : 'danger'}}">
+            <td ng-repeat="inner in docs | unique:'fq_bin'" ng-click="select_docs(outer.model,inner.fq_bin)" class="{{ get_count(outer.model,inner.fq_bin) > 3 ? 'success' : 'danger'}}">
               {{ get_count(outer.model,inner.fq_bin) }}
             </td>
           </tr>
