@@ -1,21 +1,30 @@
 .header{
   width:100%;
-  font-size: 30px;
-  font-family: roboto;
+  font-size: 35px;
+  font-family: "Segoe UI",Arial,sans-serif;
   text-align: center;
+  margin:20px;
+}
+
+.table_container{
+  padding:5px;
 }
 
 thead{
-  background: #556AFF;
+  background: #6E6CFF;
 }
 
-.table-striped > tbody > tr > td, .table-striped > thead > tr > th {
+.table-bordered > tbody > tr > td, .table-bordered > thead > tr > th {
    text-align: center;
 }
 
 
-.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
-   background-color: #EFF1FF;
+.table-bordered > tbody > tr:nth-child(2n+1) > td, .table-bordered > tbody > tr:nth-child(2n+1) > th {
+   background-color: #F2EEEF;
+}
+
+th{
+  font-family: Verdana,sans-serif;
 }
 
 .model_title{
